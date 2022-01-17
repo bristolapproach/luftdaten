@@ -53,7 +53,7 @@ def get_config(file_path):
     """Loads the sensor config file."""
     with open(file_path, 'r') as stream:
         try:
-            config = yaml.load(stream)
+            config = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
             logger.exception("There was a problem opening the config file.")
             raise
