@@ -4,8 +4,8 @@ luftviz.chart24hourMean = (function (d3, vega) {
     // Private properties
     var dateField = "timestamp",
         dateFormat = "%-d %b %y",
-        euLimitPM10 = 50,
-        euLimitPM2point5 = 25,
+        euLimitPM10 = 45,
+        euLimitPM2point5 = 15,
 
         createVegaTooltipOptions = function (valField) {
             return {
