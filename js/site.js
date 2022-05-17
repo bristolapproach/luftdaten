@@ -5,8 +5,8 @@
 
 $(function () {
     var defaultValueField = "P2",
-        euLimitPM10 = 50,
-        euLimitPM2point5 = 25;
+        euLimitPM10 = 45,
+        euLimitPM2point5 = 15;
 
     function getSensorsHashFragment (elSensor1, elDate1, elSensor2, elDate2, elValueField) {
         // Get url type hash fragment to represent current
